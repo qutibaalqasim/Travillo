@@ -223,3 +223,63 @@ input{
     background-color: #ffffff53;
     cursor: pointer;
 }
+
+.Destination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.destination-title{
+    color: #3b79c9;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.Destination h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.destinations-description{
+    color: #636774;
+    font-size: 15px;
+    max-width: 600px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.destinations-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.destinations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.italy{
+    background-image: url("./images/popular-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+.distination-card{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
