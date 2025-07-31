@@ -81,6 +81,7 @@ body{
 .nav-links{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     list-style: none;
     gap: 20px;
    
@@ -181,6 +182,7 @@ form{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .form-group{
     display: flex;
